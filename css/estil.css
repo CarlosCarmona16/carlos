@@ -2,7 +2,83 @@
     padding: 0;
     margin: 0;
 }
-nav{
-    display: block;
+#contenidor{
+    width:100%;
+    height: 1000px;
+    background-color: red;
+}
+.titol{
+    background-color: yellow;
+    height: 40px;
+    font-size:30px;
+}
+.cos{
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+
+}
+.esquerra{
+    width:15%;
+    height: 100%;
+    background-color: white;
+    float: left;
+
+}
+.central{
+    width:85%;
+    height:100%;
+    background-color: green;
     float: right;
 }
+.navigator{
+    width: 124px;
+    background-color: black;
+    text-align: center;
+    font-size: 12px;
+}
+img{
+    width: 100%;
+}
+.primer{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 36px;
+    box-sizing: inherit;
+}
+/*#capçelera{
+    margin: auto;
+    width:500px;
+}
+ul{
+    list-style: none;
+}
+.principal li a{
+    background-color:black;
+    text-decoration: none;
+    color:white;
+    padding: 10px 15px;
+    display:block;
+}
+.principal li a:hover{
+    background-color: grey;
+}
+.principal li ul{
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+.principal li:hover > ul{
+    display:block;
+}
+.principal li ul li{
+    position: relative;
+}
+.principal li ul li ul{
+    left:140px;
+    top: 0px;
+
+}*/
