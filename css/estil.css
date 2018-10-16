@@ -42,12 +42,18 @@ html,body{
     color:black;
     width:100%;
 }
+<<<<<<< HEAD
 
 .home1{
     width:100%;
 }
 .about{
     width:100%;
+=======
+/*#capçelera{
+    margin: auto;
+    width:500px;
+>>>>>>> origin/gh-pages
 }
 .projects{
     width:100%;
