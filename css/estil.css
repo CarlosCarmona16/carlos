@@ -2,7 +2,84 @@
     padding: 0;
     margin: 0;
 }
-#contenidor{
+html,body{
+    width:100%;
+    height: 100%;
+    font-size: 14px;
+}
+.contenidor{
+    width:100%;
+    height:100%;
+    background-image:url(../imatges/PHOTO-2018-10-16-23-29-44.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: auto;
+}
+.menu{
+    padding:0;
+    width:350px;
+    height:auto;
+    position: absolute;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family:cursive;
+    font-weight: bold;
+    height: 90px;
+    margin: 5px 0;
+    float:left;
+    display: inline-block;
+    background-color: black;
+    color:white;
+    line-height: 90px;
+    text-align: center;
+    transition: 300ms;
+}
+.menu li a:hover{
+    background-color: white;
+    color:black;
+    width:100%;
+}
+
+.home1{
+    width:100%;
+}
+.about{
+    width:100%;
+}
+.projects{
+    width:100%;
+}
+.contact{
+    width:100%;
+}
+.contingut{
+    position: absolute;
+    width:930px;
+    min-height: 500px;
+    height: auto;
+    right: 0;
+    top:35%;
+}
+.carlos{
+    position: absolute;
+    right: 0;
+    bottom: -80px;
+    color: white;
+    font-family: verdana;
+}
+.carlos h1{
+    font-size: 70px;
+    padding-right:100px;
+}
+.carlos h3{
+    font-size:28px;
+    padding:5px 0;
+    opacity:0.8;
+}
+/*#contenidor{
     width:100%;
     height: 1000px;
     background-color: red;
@@ -19,66 +96,41 @@
 
 }
 .esquerra{
-    width:15%;
+    width:10%;
     height: 100%;
     background-color: white;
     float: left;
 
 }
 .central{
-    width:85%;
+    width:90%;
     height:100%;
     background-color: green;
     float: right;
 }
 .navigator{
-    width: 124px;
-    background-color: black;
+    width: 173px;
+    height: 100%;
+    background-color: aqua;
     text-align: center;
     font-size: 12px;
 }
 img{
     width: 100%;
+    vertical-align: middle;
 }
-.primer{
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    font-size: 36px;
-    box-sizing: inherit;
+.home1{
+    width:100%;
+    height:50px;
+    background-color: firebrick;
+    padding: 9px 9px 9px 9px;
 }
-/*#capçelera{
-    margin: auto;
-    width:500px;
+.home{
+    width:40px;
+    height:40px;
 }
-ul{
-    list-style: none;
-}
-.principal li a{
-    background-color:black;
-    text-decoration: none;
-    color:white;
-    padding: 10px 15px;
-    display:block;
-}
-.principal li a:hover{
-    background-color: grey;
-}
-.principal li ul{
-    display:none;
-    position: absolute;
-    min-width: 140px;
-}
-.principal li:hover > ul{
-    display:block;
-}
-.principal li ul li{
-    position: relative;
-}
-.principal li ul li ul{
-    left:140px;
-    top: 0px;
-
+.home:hover{
+    background-color:grey;
+    cursor: pointer;
 }*/
+
