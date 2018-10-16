@@ -1,0 +1,5 @@
+Hector et deixo aqui les fotos de com es veu la pàgina perque quan executu l'arxiu sol index.html no s'acaba de veure tot el que he fet.
+En canvi si l'executes des del brackets amb live preview si que t'anira.
+En la segona d'articles tambe em passava el mateix ja té adjuntat les captures tambe. 
+De totes maneres ja t'ho ensenyare a classe també.
+Gràcies

@@ -1,0 +1,38 @@
+.par{
+    font-family: "Arial";
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+}
+body{
+    text-align: center;
+    background-image:url("9570580-plantilla-de-menú-de-vector-sobre-fondo-amarillo-grunged-.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#menu{
+    font-size: 60px;
+    font-weight: lighter;
+    font-style: oblique;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 100%;
+    border-style: dashed;
+    margin: 10px;
+}
+hr{
+    height:5px;
+    background-color:black;
+
+}
+h2{
+    font-weight: unset;
+    font-weight: bold;
+}
+p1{
+    color:black;
+    font-size: 30px;
+}

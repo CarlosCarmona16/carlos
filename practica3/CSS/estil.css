@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#capçelera{
+    margin: auto;
+    width:500px;
+}
+ul{
+    list-style: none;
+}
+.principal li a{
+    background-color:black;
+    text-decoration: none;
+    color:white;
+    padding: 10px 15px;
+    display:block;
+}
+.principal li a:hover{
+    background-color: grey;
+}
+.principal > li{
+    float:left;
+}
+.principal li ul{
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+.principal li:hover > ul{
+    display:block;
+}
+.principal li ul li{
+    position: relative;
+}
+.principal li ul li ul{
+    left:140px;
+    top: 0px;
+
+}

@@ -1,0 +1,20 @@
+#menu{
+    font: bold;
+}
+h1,h2{
+    text-decoration: underline;
+}
+body{
+    background-image: url("fondo\ de\ pantalla\ de\ paraiso\ de\ agua\ 12.jpg");
+}
+
+.par{
+    font-size: 20px;
+    color: yellow;
+    font-family: "Arial";
+}
+hr{
+    height:10px;
+    background-color:black;
+
+}

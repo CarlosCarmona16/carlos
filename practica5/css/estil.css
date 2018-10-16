@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.foto{
+    background-image:url(/imatges/descarga.png);
+    width: 303px;
+    height: 166px;
+}
+.titol{
+    font-size: 19px;
+    font-family: 'Lobster', cursive;
+
+}
+.text{
+    font-size-adjust: auto;
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
+}
+.info{
+    background-color: aqua;
+    width: 303px;
+    height: 166px;
+    opacity:0;
+    position: relative;
+}
+.foto:hover .info{
+    opacity:1;
+}
+button{
+    position: absolute;
+    bottom: 5px;
+    right: 25px;
+    color:black;
+    font-size: 16px;
+    background-color: indianred;
+    border: none;
+    color: white;
+    padding: 9px 15px;
+    text-decoration: none;
+    font-size: 16px;
+}

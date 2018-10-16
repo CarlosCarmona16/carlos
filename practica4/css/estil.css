@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(/imatges/85663-fondos-android.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.titol{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    width:100%;
+    height:76px;
+    font-size: 45px;
+    color: white
+}
+article{
+    width: 1000px;
+    height:1000px;
+    margin:auto;
+    margin-top: 150px;
+}
+img{
+    width:300px;
+    height:240px;
+    padding:1px;
+    background-color:white;
+    transition: background-color 0.5s;
+    box-shadow: inset 0px 0px 10px grey;
+    margin: 15px;
+    border-radius:10px;
+
+}
+img:hover{
+    background-color:darkgrey;
+    box-shadow: inset 0px 0px 15px black;
+    cursor:pointer;
+}
+article{
+    margin:auto;
+    background-color:floralwhite;
+    width:800px;
+    height:350px;
+    border:3px solid green;
+    text-align:justify;
+    border-style:dotted;
+    background-color: brown;
+}
+p{
+    padding:15px;
+}
+#foto{
+    float:left;
+}
+#foto1{
+    float:right;
+}
+#foto2{
+    float:left;
+}
+#foto3{
+    float: right;
+}
+/*!Medi Query et permet adaptar la representacio del contingut a les caracteristiques del dispositiu com la resolucio de pantalla(smartphone)¡*/
+@media(max-width:800px){
+    article{
+        margin:auto;
+        width:500px;
+        height:350px;
+    }
+}
+.p{
+    text-align: justify;
+}
+.articleAfegit{
+    height: 500px;
+    border: 4px solid green;
+    border-style: dashed;
+    background-color: brown;
+}
+
+.menu {
+    width: 150px;
+}
+
+.menu a {
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 17px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: dimgrey;
+}
+
+.menu a.only {
+    background-color: darkgreen;
+    color: white;
+}
