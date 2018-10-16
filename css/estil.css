@@ -40,15 +40,6 @@
 img{
     width: 100%;
 }
-.primer{
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    font-size: 36px;
-    box-sizing: inherit;
-}
 /*#capçelera{
     margin: auto;
     width:500px;
