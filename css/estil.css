@@ -22,7 +22,7 @@ html,body{
     height:auto;
     position: absolute;
 }
-.menu li a{
+.menu a{
     text-decoration: none;
     font-size: 28px;
     font-family:cursive;
@@ -37,7 +37,7 @@ html,body{
     text-align: center;
     transition: 300ms;
 }
-.menu li a:hover{
+.menu a:hover{
     background-color: white;
     color:black;
     width:100%;
@@ -78,12 +78,45 @@ html,body{
     padding:5px 0;
     opacity:0.8;
 }
-/*.principal{
+.principal{
     position: absolute;
     background-color: yellow;
-    width: 60%;
+    width: 50%;
     height: 50%;
-    right:0;
-    bottom: -50px;
-}*/
-
+    left:45%;
+    top: 10%;
+}
+.titol{
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+}
+.practica1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 25px;
+}
+.practica2{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 25px;
+}
+.practica3{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 25px;
+}
+.practica4{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 25px;
+}
+.practica5{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 25px;
+}
