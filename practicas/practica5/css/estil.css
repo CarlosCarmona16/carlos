@@ -3,7 +3,7 @@
     margin: 0;
 }
 .foto{
-    background-image:url(/imatges/descarga.png);
+    background-image:url(../imatges/descarga.png);
     width: 303px;
     height: 166px;
 }
@@ -39,4 +39,7 @@ button{
     padding: 9px 15px;
     text-decoration: none;
     font-size: 16px;
+}
+button:hover {
+    cursor: pointer;
 }
