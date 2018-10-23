@@ -129,4 +129,12 @@ html,body{
     font-weight: bold;
     cursor: pointer;
 }
+.about1{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left:30%;
+    top: 20%;
+}
+
 
