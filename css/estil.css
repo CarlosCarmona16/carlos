@@ -21,6 +21,7 @@ html,body{
     width:350px;
     height:auto;
     position: absolute;
+    top:20%;
 }
 .menu a{
     text-decoration: none;
@@ -109,7 +110,7 @@ html,body{
     font-size: 25px;
 }
 .practica4{
-    font-family: 'Anton', sans-serif;
+    font-family: 'Anton',s sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
     font-size: 25px;
@@ -120,5 +121,12 @@ html,body{
     color: black;
     font-size: 25px;
 }
-
+.a1{
+    text-decoration: none;
+}
+.a1:hover{
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+}
 
