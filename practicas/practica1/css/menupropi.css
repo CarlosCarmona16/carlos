@@ -51,6 +51,7 @@ p1{
     text-decoration: none;
     border: 6px solid green;
     background-color: white;
+    color:black;
 }
 .boto:hover{
     background-color: green;
