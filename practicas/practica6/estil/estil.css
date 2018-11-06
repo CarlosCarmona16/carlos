@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contenidor{
+    margin:15px;
+    width: 350px;
+    height: 300px;
+    background-color: #EDFFFB;
+    overflow: hidden;
+    float:left;
+}
+.logo{
+    width: 350px;
+    height: 300px;
+    background-color: #EDFFFB;
+    overflow: hidden;
+}
+.info{
+    width: 350px;
+    height: 0px;
+    background-color: #5D707F;
+    overflow: hidden;
+}
+.imatge{
+    display: block;
+    width: 240px;
+    height: 155px;
+    margin: 70px auto;
+}
+p.titol{
+    margin: 5px;
+    font-size: 1.1em;
+    color: #66CED6;
+    text-align: center;
+    font-size: 1.3em;
+}
+p.novetats{
+    color: white;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.link{
+    float: right;
+    margin-top: -8px;
+    margin-right: 10px;
+    padding: 10px 30px;
+    background-color: #EDFFFB;
+    font-size:0.8em;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+@keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.hvr-push {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-push:hover, .hvr-push:focus, .hvr-push:active {
+  -webkit-animation-name: hvr-push;
+  animation-name: hvr-push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+}
+.contenidor:hover .logo{
+    height: 210px;
+}
+.contenidor:hover .info{
+    height: 90px;
+    transition: height 0.5s;
+}
+.contenidor:hover .imatge{
+    margin: 30px auto;
+    transition: margin 0.5s;
+}
+.header{
+    background-color: aqua;
+    height: 100px;
+    width: 100%;
+}
+.titolWeb{
+    font-size: 3.5em;
+    font-family: 'Spicy Rice', cursive;
+    text-align: center;
+    padding: 10px;
+
+}
+.agrupats{
+    height: 850px;
+    width: 60%;
+    margin-left: 20%;
+}
+.footer{
+    position:relative;
+    width: 100%;
+    height:12%;
+    background-color: darkgrey;
+}
+@keyframes hvr-buzz {
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+.hvr-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+  -webkit-animation-name: hvr-buzz;
+  animation-name: hvr-buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+}
+.boto_1{
+    background-color: white;
+    position: absolute;
+    max-width: 89px;
+    width: 9%;
+    height: 70px;
+    top: 20%;
+    left: 40px;
+    margin:auto;
+    transition-duration: 0.4s;
+    border:2px solid green;
+}
+.boto_1:hover{
+    background-color:green;
+    cursor: pointer;
+    color:white;
+}
+.text_1{
+    text-align: center;
+    padding: 17px 1px 1px;
+    font-size: 24px;
+}
+.boto_2{
+    background-color: blue;
+    position: absolute;
+    max-width: 89px;
+    width: 9%;
+    height: 70px;
+    top: 20%;
+    right:40px;
+    margin:auto;
+    transition-duration: 0.4s;
+    border: 2px solid blue;
+}
+.boto_2:hover{
+    background-color:white;
+    cursor: pointer;
+}
+.text_2{
+    text-align: center;
+    padding: 17px 1px 1px;
+    font-size: 24px;
+}
+.boto_3{
+    background-color:white;
+    position: absolute;
+    max-width: 89px;
+    width: 9%;
+    height: 70px;
+    top: 20%;
+    left:45.5%;
+    margin:auto;
+    border-style: dashed;
+    border:2px solid firebrick;
+}
+.text_3{
+    text-align: center;
+    font-size: 24px;
+    padding: 17px 1px 1px;
+}
+.boto_3:hover{
+    cursor: pointer;
+    background-color: chartreuse;
+
+}
+.boto_4{
+    background-color: aqua;
+    position: absolute;
+    max-width: 89px;
+    width: 9%;
+    height: 70px;
+    top:20%;
+    left:22.75%;
+    margin: auto;
+    transition-duration: 0.4s;
+    border: 2px solid black;
+}
+.text_4{
+    text-align: center;
+    padding: 17px 1px 1px;
+    font-size: 24px;
+}
+.boto_4:hover{
+    cursor: pointer;
+    background-color: chocolate;
+}
+.boto_5{
+    background-color: red;
+    position: absolute;
+    max-width: 89px;
+    width: 9%;
+    height: 70px;
+    top:20%;
+    right:22.75%;
+    margin: auto;
+    transition-duration: 0.4s;
+    border: 2px solid black;
+}
+.text_5{
+    text-align: center;
+    padding: 17px 1px 1px;
+    font-size: 24px;
+}
+.boto_5:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.tornar{
+    height: 40px;
+    top:10px;
+    right:10px;
+    width: 70px;
+    position: fixed;
+    padding:15px 32px;
+    font-size: 20px;
+    margin:4px 2px;
+    border:none;
+}
+.boto{
+    text-decoration: none;
+    border: 6px solid green;
+    background-color: white;
+}
+.boto:hover{
+    background-color: green;
+
+}
+.treure{
+    text-decoration: none;
+}
