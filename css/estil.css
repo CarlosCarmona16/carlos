@@ -130,11 +130,14 @@ html,body{
     cursor: pointer;
 }
 .about1{
-    position: absolute;
+    position: relative;
     width: 50%;
     height: 50%;
     left:30%;
     top: 20%;
 }
-
+.info{
+    position: absolute;
+    font-size: 2em;
+}
 
