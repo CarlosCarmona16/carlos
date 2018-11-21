@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.icon-hamburguesa {
+    width: 30px;
+    height: 30px;
+}
+
+.principal {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.titol {
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    background-color: #4C8FEC;
+}
+
+#btn-menu {
+    display: none;
+}
+
+header label {
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-right: 2px solid white;
+}
+
+header label:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0, 3);
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    text-align: center;
+    flex-grow: 1;
+    border-right: 1px solid white;
+}
+
+.menu li:hover {
+    background-color: rgba(0, 0, 0, 0, 3);
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.contingut {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+
+}
+
+article {
+    display: block;
+}
+
+.etalentum {
+    width: 1000px;
+
+
+}
+
+.etalentum1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.subtitol {
+    text-align: justify;
+}
+
+.foto_1 {
+    float: left;
+    width: 300px;
+    height: 150px;
+}
+
+.foto_2 {
+    float: right;
+    width: 300px;
+    height: 150px;
+}
+
+/*
+.articlesT{
+    width: 100%;
+    display: block;
+
+}
+.holaL{
+    width: 500px;
+}
+*/
+
+.parrafs {
+    width: 1000px;
+    height: 200px;
+    position: relative;
+    text-align: justify;
+}
+
+.esquerra {
+    position: absolute;
+    width: 200px;
+    left: 0px;
+
+}
+
+.dreta {
+    width: 200px;
+    position: absolute;
+    right: 0px;
+}
+
+.centrat {
+    margin: auto;
+    width: 200px;
+    position: absolute;
+    left: 370px;
+}
+
+.boto {
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 75px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    float: right;
+}
+
+.copyright {
+    float: left;
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.footer {
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+    background-color: #4C8FEC;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.logo1 {
+    width: 50px;
+    height: 50px;
+}
+
+.logo2 {
+    width: 50px;
+    height: 50px;
+}
+
+.logo3 {
+    width: 50px;
+    height: 50px;
+}
+
+.caixa1 {
+
+float:right;
+}
+
+.caixa2 {
+
+float:right;
+}
+
+.caixa3 {
+
+float:right;
+}
+
+.caixa4 {
+    float: right;
+}
+
+@media (max-width:600px) {
+    header label {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        background-color: #2572EB;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li {
+        border-top: 2px solid white;
+    }
+
+    #btn-menu:checked ~ .menu {
+        margin: 0;
+    }
+
+    .parrafs {
+        width: 600px;
+        height: 800px;
+        display: block;
+    }
+
+    .flotant {
+        position: relative;
+        margin: 55px;
+        display: block;
+        float: left;
+        overflow: hidden;
+        left: 0;
+    }
+
+    /*
+    .foto_1 {
+    display: block;
+
+}
+*/
+    .footer {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        text-align: center;
+        float: left;
+    }
+    .caixa1 {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.caixa2 {
+    position: absolute;
+    right: 55px;
+    bottom: 5px;
+}
+
+.caixa3 {
+    position: absolute;
+    right: 105px;
+    bottom: 5px;
+}
+
+.caixa4 {
+    position: absolute;
+    right: 160px;;
+    bottom: 5px;
+}
+
+    .foto_1 {
+        display: flex;
+        /*    float: left;*/
+        width: 300px;
+        height: 150px;
+    }
+
+    .foto_2 {
+        display: flex;
+        /*    float: left;*/
+        width: 300px;
+        height: 150px;
+    }
+
+    .articlesT {
+        width: 100%;
+        display: flex;
+
+    }
+
+    .holaL {
+        display: block;
+        width: 500px;
+    }
+
+}
