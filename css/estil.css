@@ -10,7 +10,7 @@ html,body{
 .contenidor{
     width:100%;
     height:100%;
-    background-image:url(../imatges/PHOTO-2018-10-16-23-29-44.jpg);
+    background-image:url(../imatges/bird-s-eye-view-clouds-countryside-1625181.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -82,10 +82,11 @@ html,body{
 }
 .principal{
     position: absolute;
-    width: 50%;
-    height: 50%;
+    height: 610px;
     left:40%;
-    top: 10%;
+    top: 15%;
+    background-color: white;
+    opacity: 0.6;
 }
 .titol{
     font-size: 35px;
@@ -110,7 +111,7 @@ html,body{
     font-size: 25px;
 }
 .practica4{
-    font-family: 'Anton',s sans-serif;
+    font-family: 'Anton',sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
     font-size: 25px;
@@ -121,8 +122,30 @@ html,body{
     color: black;
     font-size: 25px;
 }
+.practica6{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 25px;
+}
+.practica7{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 25px;
+}
+.practica7-1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 25px;
+}
 .a1{
     text-decoration: none;
+    color: white;
+    background-color: #5D6D7E;
+    padding: 10px;
+    border-radius: 30px;
 }
 .a1:hover{
     color:black;
@@ -140,4 +163,3 @@ html,body{
     position: absolute;
     font-size: 2em;
 }
-

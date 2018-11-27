@@ -10,9 +10,11 @@ html,body{
 .contenidor{
     width:100%;
     height:100%;
+    background-image:url(../imatges/bird-s-eye-view-clouds-countryside-1625181.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     overflow-y: auto;
-    background-color: darkgoldenrod;
 }
 .menu{
     padding:0;
@@ -55,18 +57,26 @@ html,body{
 }
 
 .contacte{
+    position: absolute;
+    height: 610px;
+    left:40%;
+    top: 15%;
+    background-color: white;
+
+/*
     position: fixed;
     width:500px;
     height: 600px;
     right: 600px;
     top:20%;
     background-color: white;
+*/
 }
 .nom{
     position: relative;
     width: 100%;
     height: 65px;
-    background-color: red;
+    background-color: #979A9A;
     text-align: center;
 }
 .titol{
