@@ -81,7 +81,7 @@ html,body{
     opacity:0.8;
 }
 .principal{
-    position: absolute;
+    position: relative;
     height: 610px;
     left:40%;
     top: 15%;
@@ -96,49 +96,49 @@ html,body{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 .practica2{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 .practica3{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 .practica4{
     font-family: 'Anton',sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 .practica5{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 .practica6{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 .practica7{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 .practica7-1{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 .a1{
     text-decoration: none;
@@ -154,12 +154,64 @@ html,body{
 }
 .about1{
     position: relative;
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
     left:30%;
-    top: 20%;
+    top: 10%;
+    background-color: white;
+    opacity: 0.8;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+
 }
-.info{
-    position: absolute;
+.imatge{
+    width:25%;
+    background-image: url(/imatges/Captura.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
     font-size: 2em;
 }
+.text{
+    width:75%;
+    background-color: white;
+}
+.subtext{
+    padding: 15px;
+    margin-left: 5px;
+}
+.sobremi{
+    padding: 15px;
+    margin-left: 10px;
+}
+.info{
+    font-size: 20px;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
+
+
+
+
+
+
+
+
+
+
+

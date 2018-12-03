@@ -102,5 +102,30 @@ html,body{
     height: 100%;
 }
 
+.contingut{
+    position: absolute;
+    width:430px;
+    min-height: 500px;
+    height: 500px;
+    right: 0;
+    top:35%;
+}
+.carlos{
+    position: absolute;
+    right: 0;
+    bottom: -80px;
+    width: 730px;
+    color: white;
+    font-family: verdana;
+}
+.carlos h1{
+    font-size: 70px;
+    padding-right:100px;
+}
+.carlos h3{
+    font-size:28px;
+    padding:5px 0;
+    opacity:0.8;
+}
 
 
