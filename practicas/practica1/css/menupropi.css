@@ -1,19 +1,21 @@
-.par{
+.par {
     font-family: "Arial";
     color: black;
     font-size: 20px;
     font-style: italic;
 }
-body{
+
+body {
     text-align: center;
-    background-image:url("9570580-plantilla-de-menú-de-vector-sobre-fondo-amarillo-grunged-.jpg");
+    background-image: url("9570580-plantilla-de-menú-de-vector-sobre-fondo-amarillo-grunged-.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     margin: 0 auto;
     padding-left: 20%;
     padding-right: 20%;
 }
-#menu{
+
+#menu {
     font-size: 60px;
     font-weight: lighter;
     font-style: oblique;
@@ -23,40 +25,49 @@ body{
     border-style: dashed;
     margin: 10px;
 }
-hr{
-    height:5px;
-    background-color:black;
+
+hr {
+    height: 5px;
+    background-color: black;
 
 }
-h2{
+
+h2 {
     font-weight: unset;
     font-weight: bold;
 }
-p1{
-    color:black;
+
+p1 {
+    color: black;
     font-size: 30px;
 }
-.tornar{
+
+.tornar {
     height: 40px;
-    top:10px;
-    right:10px;
+    top: 10px;
+    right: 10px;
     width: 90px;
     position: fixed;
-    padding:15px 32px;
+    padding: 15px 32px;
     font-size: 20px;
-    margin:4px 2px;
-    border:none;
+    margin: 4px 2px;
+    border: none;
 }
-.boto{
-    text-decoration: none;
-    border: 6px solid green;
-    background-color: white;
-    color:black;
-}
-.boto:hover{
-    background-color: green;
 
-}
-.treure{
+.treure {
+    padding: 8px;
+    border-radius: 10px;
     text-decoration: none;
+}
+
+.treure {
+    text-decoration: none;
+    border: 4px solid black;
+    background-color: white;
+    color: black;
+}
+
+.treure:hover {
+    background-color: black;
+    color: white;
 }
