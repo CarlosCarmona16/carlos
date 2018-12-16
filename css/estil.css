@@ -81,8 +81,9 @@ html,body{
     opacity:0.8;
 }
 .principal{
-    position: relative;
+    position: absolute;
     height: 610px;
+    width: 500px;
     left:40%;
     top: 15%;
     background-color: white;
@@ -91,54 +92,63 @@ html,body{
 .titol{
     font-size: 35px;
     font-family: 'Anton', sans-serif;
+    text-align: center;
 }
 .practica1{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
     font-size: 20px;
+    text-align:center;
 }
 .practica2{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
     font-size: 20px;
+    text-align:center;
 }
 .practica3{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
     font-size: 20px;
+    text-align:center;
 }
 .practica4{
     font-family: 'Anton',sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
     font-size: 20px;
+    text-align:center;
 }
 .practica5{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
     font-size: 20px;
+    text-align:center;
 }
 .practica6{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
     font-size: 20px;
+    text-align:center;
 }
 .practica7{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
     font-size: 20px;
+    text-align:center;
 }
 .practica7-1{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;
     font-size: 20px;
+    text-align:center;
 }
 .a1{
     text-decoration: none;
