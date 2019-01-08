@@ -82,7 +82,7 @@ html,body{
 }
 .principal{
     position: absolute;
-    height: 610px;
+    height: 670px;
     width: 500px;
     left:40%;
     top: 15%;
@@ -144,6 +144,13 @@ html,body{
     text-align:center;
 }
 .practica7-1{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 20px;
+    text-align:center;
+}
+.practica8{
     font-family: 'Anton', sans-serif;
     font-family: 'Playfair Display', serif;
     color: black;

@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 95%;
+    margin: auto;
+    margin-top: 1%;
+    background-color:  #82b74b;
+}
+.principal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.central{
+    display: flex;
+    flex-wrap: wrap;
+/*    background-color: green;*/
+    width: 100%;
+}
+
+header{
+/*    background-color: darkcyan;*/
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu{
+    flex: 70%;
+    background-color: #405d27;
+    min-width: 200px;
+    margin-top: 45px;
+}
+.idiomes{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex:10%;
+    min-width: 200px;
+}
+.logo{
+   width: 250px;
+   max-width: 100%;
+   height: 50px;
+    margin-top: 45px;
+}
+.menu ul{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    list-style: none;
+}
+.menu li {
+    flex-grow: 1;
+    border-right: 1px solid white;
+    text-align: center;
+}
+.menu li a {
+    padding: 15px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.titol{
+    display: flex;
+    flex-direction: column;
+/*    background-color: red;*/
+    width: 90%;
+    margin: 15px auto;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
+h1{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Anton', sans-serif;
+}
+.subtitol{
+/*    background-color: darksalmon;*/
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+h2{
+    text-align: center;
+    margin: 15px;
+    font-family: 'Anton', sans-serif;
+}
+.contingut{
+    margin-top: 20px;
+    display: flex;
+/*    background-color: aqua;*/
+    flex: 80%;
+    min-width: 150px;
+    flex-wrap: wrap;
+}
+.box{
+    flex: 25%;
+    height: 250px;
+    margin: 15px;
+/*    background-color: darksalmon;*/
+    min-width: 250px;
+}
+
+aside{
+    flex: 20%;
+    min-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 30%;
+    min-width: 130px;
+    height: 250px;
+    margin: 30px;
+}
+
+.footer{
+    margin-top:20px;
+/*    background-color: yellow;*/
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.esquerra{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 20%;
+    min-width: 200px;
+    background-color: #c1946a;
+    border-radius: 10px;
+    margin: 8px;
+}
+.costat1{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 20%;
+    min-width: 200px;
+    background-color: #c1946a;
+    border-radius: 10px;
+    margin: 8px;
+}
+.costat2{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 20%;
+    min-width: 200px;
+    background-color: #c1946a;
+    border-radius: 10px;
+    margin: 8px;
+}
+.dreta{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 20%;
+    min-width: 200px;
+    background-color: #c1946a;
+    border-radius: 10px;
+    margin: 8px;
+}
+.designed{
+    margin-top: 15px;
+    display: flex;
+    background-color: #3e4444;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px;
+    height: 50px;
+    flex-wrap: wrap;
+}
+h3{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+.text{
+    display: flex;
+    padding: 10px;
+}
+img{
+    width: 450px;
+   max-width: 100%;
+   max-height: 150px;
+}
+.tornar{
+    height: 25px;
+    top:10px;
+    right:10px;
+    width: 90px;
+    padding: 3px;
+    position: fixed;
+    font-size: 20px;
+    margin:4px 2px;
+    border:none;
+}
+.treure{
+    padding: 8px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.treure{
+    text-decoration: none;
+    border: 4px solid black;
+    background-color: white;
+    color:black;
+}
+.treure:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
