@@ -85,9 +85,20 @@ html,body{
     height: 670px;
     width: 500px;
     left:40%;
-    top: 15%;
+    top: 10%;
     background-color: white;
     opacity: 0.6;
+}
+.principalDreta{
+    position: absolute;
+    height: 670px;
+    width: 500px;
+    right:5%;
+    top: 10%;
+    background-color: white;
+    opacity: 0.6;
+    margin-top: 10px;
+
 }
 .titol{
     font-size: 35px;
