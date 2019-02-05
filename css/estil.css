@@ -58,6 +58,7 @@ html,body{
 .contingut{
     position: absolute;
     width:430px;
+    bottom: 700px;
     min-height: 500px;
     height: 500px;
     right: 0;
