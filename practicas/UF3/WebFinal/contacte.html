@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    input[type=range]{
+          -webkit-appearance: none;
+          width: 100%;
+          height: 15px;
+          background: #d3d3d3;
+          opacity: 0.7;
+          transition: .2s;
+          transition: opacity .2s;
+        }
+        input[type=range]:hover{
+            opacity: 1;
+        }
+       input[type=range]::-webkit-slider-thumb {
+          -webkit-appearance: none; /* Override default look */
+          width: 25px;
+          height: 25px;
+          background: #4CAF50;
+          cursor: pointer;
+        }
+    #form{
+        width: 411px;
+        height: 440px;
+        background:#e6e6e6;
+        border-radius:8px;
+        box-shadow:0 0 40px -10px #000;
+        padding:20px 30px;
+        box-sizing:border-box;
+        font-family:'Montserrat',sans-serif;
+        margin: 30px auto;
+        min-width: 300px;;
+    }
+    h2{
+        margin:10px 0;
+        padding-bottom:10px;
+        width:180px;
+        color:#78788c;
+        border-bottom:3px solid #78788c
+    }
+    input{
+        width:100%;
+        padding:10px;
+        box-sizing:border-box;
+        background:none;
+        border:0;font-family:'Montserrat',sans-serif;
+        transition:all .3s;
+        border-bottom:2px solid #bebed2
+    }
+    input:focus{
+        border-bottom:2px solid #78788c
+    }
+    p:before{
+        content:attr(type);
+        display:block;
+        margin:28px 0 0;
+        font-size:18px;
+        color:#5a5a5a
+    }
+    button{
+        float:right;
+        padding:8px 12px;
+        margin:8px 0 0;
+        font-family:'Montserrat',sans-serif;
+        border:2px solid #70CF84;
+        background:0;color:#5a5a6e;
+        cursor:pointer;
+        transition:all .3s;
+        margin-top: 26px;
+    }
+    button:hover{
+        background:#70CF84;color:#fff
+    }
+    span{
+        margin:0 5px 0 15px
+    }
+    #containerForm{
+        background-color: #F5F5F1;
+        height: 100%;
+        width: 90%;
+        margin: auto;
+    }
+    .h31{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        font-size: 28px;
+    }
+    .parraf{
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+    }
+</style>
+
+<body>
+    <div class="acces" style="display: flex; justify-content: space-between; padding: 6px;">
+        <a href="" id="x" aria-label="Desplegar Opciones">Display Options</a>
+        <div class="desplegable" style="display: none;">
+            <br>
+            <h3 style="font-size: 25px; display: flex; justify-content: center;">Text and Display</h3>
+            <div class="pare">
+                <div class="opcions">
+                    <h4>Mida lletra</h4>
+                    <p class="range" style="margin-left: -120px;">
+                        <br>
+                        <br>
+                        <input type="range" min="12" max="72" value="16" id="font-size" />
+                    </p>
+                </div>
+                <div class="opcions">
+                    <h4>Color de fons</h4>
+                    <p class="range" style="margin-left: -120px;">
+                        <br>
+                        <br>
+                        <select name="select" id="select" onchange="getValue(this)">
+                            <option value="res"></option>
+                            <option value="black" style="background-color: black; color: yellow; font-size: 15px;">Background black and color yellow</option>
+                            <option value="yellow" style="background-color: yellow; color: black; font-size: 15px;">Background yellow and color black</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="opcions">
+                    <h4>Interlineat</h4>
+                    <p class="range" style="margin-left: -120px;">
+                        <br>
+                        <br>
+                        <input type="range" min="12" max="52" value="16" id="interlineat" />
+                    </p>
+                </div>
+                <div class="opcions">
+                    <h4>Color de la lletra</h4>
+                    <p class="range" style="margin-left: -120px;">
+                        <br>
+                        <br>
+                        <select name="select" id="select" onchange="getLletra(this)" style="width: 110px;">
+                            <option value="res"></option>
+                            <option value="fantasy" style="font-family: fantasy; font-size: 20px;">Fantasy</option>
+                            <option value="cursive" style="font-family: cursive; font-size: 20px;">Cursive</option>
+                            <option value="monospace" style="font-family:monospace; font-size: 20px;">Monospace</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="opcions">
+                     <h4 style="display: flex; justify-content: center;">Site Map</h4>
+                    <p class="range" style="margin-left: -120px; display: flex; justify-content: center; margin-top: 40px;">
+                        <a href="index.html" style="margin-bottom: 10px; font-size: 17px;">Home</a>
+                        <br>
+                        <a href="especies.html" style="margin-bottom: 10px; font-size: 17px;">Espècies</a>
+                        <br>
+                        <a href="contacte.html" style="margin-bottom: 10px; font-size: 17px;">Contacte</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a href="" id="t" aria-label="Remover Opciones">Remove</a>
+    </div>
+    <div id="total">
+        <header>
+            <div class="logo">
+                <img src="img/bonsai.png" class="bonsai">
+            </div>
+            <nav class="menu">
+                <div class="item"><a href="index.html">Home</a></div>
+                <div class="item"><a href="especies.html">Espècies</a></div>
+                <div class="item"><a href="contacte.html">Contacte</a></div>
+            </nav>
+        </header>
+
+        <div id="containerForm">
+            <form id="form" method="post">
+                <h2>CONTACTE</h2>
+                <p><label for="usuari">Nom: <input type="text" name="usuari" required></label></p>
+
+                <p><label for="pass">Contraseña: <input type="password" name="pass" required></label></p>
+                <p><label for="miss">Missatge: <input type="password" name="miss" required></label></p>
+
+                <button>Send Message</button>
+            </form>
+        </div>
+        <div class="footer">
+            <p class="pfooter"><strong>CopyRight Carlos Drets Reservats</strong></p>
+        </div>
+    </div>
+    <script>
+        var accesibility = document.getElementById("x");
+
+
+
+        accesibility.addEventListener("click", function(event) {
+            event.preventDefault();
+
+        });
+
+        accesibility.addEventListener("click", function(event) {
+            event.preventDefault();
+            var divDesplegable = document.querySelector("div[class=desplegable]");
+            divDesplegable.style.display = "block";
+            divDesplegable.style.backgroundColor = "#F5F5F1";
+            divDesplegable.style.transition = "height 2s";
+
+        });
+
+        var slider = document.getElementById('font-size');
+        //div pare que ho te tot
+        var idTotal = document.getElementById('total');
+
+
+        slider.addEventListener('input', function() {
+            var size = slider.value;
+            idTotal.style.fontSize = size + "px";
+
+        });
+
+        var sliderInter = document.getElementById("interlineat");
+
+        sliderInter.addEventListener("input", function() {
+            var midaInter = sliderInter.value;
+            idTotal.style.lineHeight = midaInter + "px";
+        });
+
+        /*var sliderImatges = document.getElementById("imatges");
+        var totesImatges = document.getElementsByTagName("img");
+
+        sliderImatges.addEventListener("input",function(){
+            var midaImg = sliderImatges.value;
+            idTotal.style.width = midaImg + "px";
+            idTotal.style.height = midaImg + "px";
+        });*/
+
+        //Opcio select de colors
+        var contForm = document.getElementById("containerForm");
+        var formSol = document.getElementById("form");
+        function getValue(x) {
+            if (x.value == "res") {
+                contForm.style.backgroundColor = "Transparent";
+                formSol.style.backgroundColor = "Transparent";
+                idTotal.style.backgroundColor = "white";
+                idTotal.style.color = "Black";
+            }
+            if (x.value == "black") {
+                contForm.style.backgroundColor = "Transparent";
+                formSol.style.backgroundColor = "Transparent";
+                idTotal.style.backgroundColor = x.value;
+                idTotal.style.color = "Yellow";
+            }
+            if (x.value == "yellow") {
+                contForm.style.backgroundColor = "Transparent";
+                formSol.style.backgroundColor = "Transparent";
+                idTotal.style.background = x.value;
+                idTotal.style.color = "Black";
+            }
+        }
+
+        function getLletra(e) {
+            if (e.value == "res") {
+                idTotal.style.fontFamily = "Inherit";
+            }
+            if (e.value == "fantasy") {
+                idTotal.style.fontFamily = "Fantasy"
+            }
+            if (e.value == "cursive") {
+                idTotal.style.fontFamily = "Cursive";
+            }
+            if (e.value == "monospace") {
+                idTotal.style.fontFamily = "Monospace";
+            }
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        input[type=range]{
+          -webkit-appearance: none;
+          width: 100%;
+          height: 15px;
+          background: #d3d3d3;
+          opacity: 0.7;
+          transition: .2s;
+          transition: opacity .2s;
+        }
+        input[type=range]:hover{
+            opacity: 1;
+        }
+       input[type=range]::-webkit-slider-thumb {
+          -webkit-appearance: none; /* Override default look */
+          width: 25px;
+          height: 25px;
+          background: #4CAF50;
+          cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="acces" style="display: flex; justify-content: space-between; padding: 6px;">
+        <a href="" id="x" aria-label="Desplegar Opciones">Display Options</a>
+        <div class="desplegable" style="display: none;">
+            <br>
+            <h3 style="font-size: 25px; display: flex; justify-content: center;">Text and Display</h3>
+            <div class="pare">
+                <div class="opcions">
+                    <h4>Mida lletra</h4>
+                    <p class="range" style="margin-left: -120px;">
+                        <br>
+                        <br>
+                        <input type="range" min="12" max="72" value="16" id="font-size" />
+                    </p>
+                </div>
+                <div class="opcions">
+                    <h4>Color de fons</h4>
+                    <p class="range" style="margin-left: -120px;">
+                        <br>
+                        <br>
+                        <select name="select" id="select" onchange="getValue(this)">
+                           <option value="res"></option>
+                            <option value="black" style="background-color: black; color: yellow; font-size: 15px;">Background black and color yellow</option>
+                            <option value="yellow" style="background-color: yellow; color: black; font-size: 15px;">Background yellow and color black</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="opcions">
+                    <h4>Interlineat</h4>
+                    <p class="range" style="margin-left: -120px;">
+                        <br>
+                        <br>
+                        <input type="range" min="12" max="52" value="16" id="interlineat" />
+                    </p>
+                </div>
+                <div class="opcions">
+                     <h4>Color de la lletra</h4>
+                    <p class="range" style="margin-left: -120px;">
+                        <br>
+                        <br>
+                        <select name="select" id="select" onchange="getLletra(this)" style="width: 110px;">
+                           <option value="res"></option>
+                            <option value="fantasy" style="font-family: fantasy; font-size: 20px;">Fantasy</option>
+                            <option value="cursive" style="font-family: cursive; font-size: 20px;">Cursive</option>
+                            <option value="monospace" style="font-family:monospace; font-size: 20px;">Monospace</option>
+                        </select>
+                    </p>
+                </div>
+                 <div class="opcions">
+                     <h4 style="display: flex; justify-content: center;">Site Map</h4>
+                    <p class="range" style="margin-left: -120px; display: flex; justify-content: center; margin-top: 40px;">
+                        <a href="index.html" style="margin-bottom: 10px; font-size: 17px;">Home</a>
+                        <br>
+                        <a href="especies.html" style="margin-bottom: 10px; font-size: 17px;">Espècies</a>
+                        <br>
+                        <a href="contacte.html" style="margin-bottom: 10px; font-size: 17px;">Contacte</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a href="" id="t" aria-label="Remover Opciones">Remove</a>
+    </div>
+    <br>
+    <br>
+    <div id="total">
+    <header id="headerid">
+        <div class="logo">
+            <img src="img/bonsai.png" class="bonsai">
+        </div>
+        <nav class="menu">
+            <a href="#" class="item" aria-label="Ir al Home">Home</a>
+            <a href="especies.html" class="item" aria-label="Ir a Especies">Espècies</a>
+            <a href="contacte.html" class="item" aria-label="Ir a Contacto">Contacte</a>
+
+        </nav>
+    </header>
+    <br>
+    <div class="containerApartat">
+        <div class="partesquerra">
+            <div class="titol_">
+                <h3 lang="ca">Bonsai Empire, estem per ajudar</h3>
+            </div>
+            <br>
+            <div class="textBonsai">
+                <p class="pr" lang="en">
+                    Bonsai Empire is a community built by enthusiasts and experts from around the world. Here we introduce you to the fascinating living art of the Bonsai and we help you to get started! Look at the movie below to get a brief introduction to the Bonsai Basics
+                </p>
+            </div>
+        </div>
+        <div class="partdreta">
+            <div class="contingut">
+                <img src="img/A_045_Nov.jpg" style="width: 200px; height: 200px;">
+                <img src="img/A_048_Feb.jpg" style="width: 200px; height: 200px;">
+                <img src="img/A_048_Feb.jpg" style="width: 200px; height: 200px;">
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr style="width: 50%; margin: auto;">
+    <br>
+    <div class="containerPare">
+        <div class="esquerra">
+            <img src="img/howto-care.jpeg" class="img_">
+        </div>
+        <div class="dreta">
+            <div class="titol">
+                <h3>Cura del Bonsai</h3>
+            </div>
+            <br>
+            <div class="text">
+                <p>Mantenir un Bonsai viu realment no és tan difícil. Però com que aquests arbres estan plantats en petites testos, tindran menys reserves en termes d'aigua i nutrients. Això vol dir que haureu de regar i abonar regularment, així com col·locar els vostres arbres en un bon lloc. Si li presteu atenció als vostres arbres i els regueu quan ho necessitin, els vostres arbres prosperaran!
+                </p>
+            </div>
+            <br>
+            <div class="link">
+                <a href="especies.html" class="leer" title="Llegir més" aria-label="Llegir més">Llegir més</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr style="width: 50%; margin: auto;">
+    <br>
+    <div class="containerPare">
+        <div class="esquerra">
+            <img src="img/howto-propagation.jpeg" class="img_">
+        </div>
+        <div class="dreta">
+            <div class="titol">
+                <h3>Creixent i cultivant</h3>
+            </div>
+            <br>
+            <div class="text">
+                <p>Hi ha diferents mètodes per propagar arbres, alguns necessiten molta paciència i altres ofereixen resultats immediats. En conrear un arbre des de llavor tindreu un control total sobre el disseny del vostre Bonsai, però prendrà almenys cinc anys abans que tingueu res que s'assembli a un arbre. Comprar un arbre en un viver vol dir que podreu modelar immediatament.</p>
+            </div>
+            <div class="link">
+                <a href="especies.html" class="leer" title="Llegir més" aria-label="Llegir més">Llegir més</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr style="width: 50%; margin: auto;">
+    <br>
+    <div class="containerPare">
+        <div class="esquerra">
+            <img src="img/howto-styling.jpeg" class="img_">
+        </div>
+        <div class="dreta">
+            <div class="titol">
+                <h3>Modelatge</h3>
+            </div>
+            <br>
+            <div class="text">
+                <p>Un error comú és considerar que les plantes usades en el Bonsai són plantes genèticament "nanes". Els Bonsais són plantes normals, que es propaguen com qualsevol altra, però que s'entrenen emprant tècniques sofisticades que mantenen a l'arbre en miniatura. El modelatge d'aquests arbres en miniatura inclou importants tècniques com la poda regular i el filat.</p>
+            </div>
+            <div class="link">
+                <a href="especies.html" class="leer" title="Llegir més" aria-label="Llegir més">Llegir més</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr style="width: 50%; margin: auto;">
+    <br>
+    <div class="containerPare">
+        <div class="esquerra">
+            <img src="img/buying-bonsai.jpg" class="img_">
+        </div>
+        <div class="dreta">
+            <div class="titol">
+                <h3>Especies Populares</h3>
+            </div>
+            <br>
+            <div class="text">
+                <p>Cada especie posee requerimientos específicos para su cultivo, entrenamiento y cuidado. Esto significa que seleccionar la especie adecuada a su entorno (o identificar que especie ya tiene) es crucial para mantenerla saludable. Nosotros le ayudamos a seleccionar o identificar su árbol. Las especies más populares incluyen al Ficus y al Junípero.</p>
+            </div>
+            <div class="link">
+                <a href="especies.html" class="leer" title="Llegir més" aria-label="Llegir més">Llegir més</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr style="width: 50%; margin: auto;">
+    <br>
+    <div class="container">
+        <div class="card">
+            <h3 class="tit">Cursos on-line</h3>
+            <p>Premiados expertos le enseñan todo lo que hay que saber sobre el Bonsái.</p>
+            <div class="link">
+                <a href="contacte.html" class="leer tit" title="Llegir més">Llegir més</a>
+            </div>
+        </div>
+        <div class="card">
+            <h3 class="tit">Foro</h3>
+            <p>Únase a nuestra comunidad de expertos.Somos expertos en tratar con clientes</p>
+            <div class="link">
+                <a href="contacte.html" class="leer tit" title="Llegir més"> Llegir més</a>
+            </div>
+        </div>
+        <div class="card">
+            <h3 class="tit">Cursos on-line</h3>
+            <p>Premiados expertos le enseñan todo lo que hay que saber sobre el Bonsái.</p>
+            <div class="link">
+                <a href="contacte.html" class="leer tit" title="Llegir més">Llegir més</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="footer">
+        <p class="pfooter"><strong>CopyRight Carlos Drets Reservats</strong></p>
+    </div>
+    </div>
+    <script>
+            var accesibility = document.getElementById("x");
+
+
+        accesibility.addEventListener("click", function(event) {
+            event.preventDefault();
+
+        });
+
+        accesibility.addEventListener("click", function(event) {
+            event.preventDefault();
+            var divDesplegable = document.querySelector("div[class=desplegable]");
+            divDesplegable.style.display = "block";
+            divDesplegable.style.backgroundColor = "#F5F5F1";
+            divDesplegable.style.transition = "height 2s";
+
+        });
+
+        var slider = document.getElementById('font-size');
+        //div pare que ho te tot
+        var idTotal = document.getElementById('total');
+
+
+        slider.addEventListener('input', function() {
+            var size = slider.value;
+            idTotal.style.fontSize = size + "px";
+            header.style.fontSize = size + "px";
+        });
+
+        var sliderInter = document.getElementById("interlineat");
+
+        sliderInter.addEventListener("input", function() {
+            var midaInter = sliderInter.value;
+            idTotal.style.lineHeight = midaInter + "px";
+        });
+
+
+        //Opcio select de colors
+        function getValue(x) {
+            if (x.value == "res") {
+                idTotal.style.backgroundColor = "white";
+                idTotal.style.color = "Black";
+            }
+            if (x.value == "black") {
+                idTotal.style.backgroundColor = x.value;
+                idTotal.style.color = "Yellow";
+            }
+            if (x.value == "yellow") {
+                idTotal.style.background = x.value;
+                idTotal.style.color = "Black";
+            }
+        }
+
+        function getLletra(e) {
+            if (e.value == "res") {
+                idTotal.style.fontFamily = "Inherit";
+            }
+            if (e.value == "fantasy") {
+                idTotal.style.fontFamily = "Fantasy"
+            }
+            if (e.value == "cursive") {
+                idTotal.style.fontFamily = "Cursive";
+            }
+            if (e.value == "monospace") {
+                idTotal.style.fontFamily = "Monospace";
+            }
+        }
+
+    </script>
+</body>
+
+</html>

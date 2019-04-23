@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    flex: 100%;
+    height: 120px;
+    width: 100px;
+    margin: 15px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.item{
+    flex: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #228B22;
+    border: none;
+    padding: 14px;
+    text-align: center;
+    font-size: 24px;
+    margin: 1px 1px;
+    opacity: 0.7;
+    transition: 0.6s;
+}
+a{
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+}
+.item:hover{
+    opacity: 1;
+}
+.containerPare{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 65%;
+}
+.esquerra{
+    background-color: dimgrey;
+    display: flex;
+    width: 300px;
+}
+.dreta{
+    display: flex;
+    flex: 20%;
+    min-width: 300px;
+    flex-direction: column;
+}
+.apartats{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.apartats > div{
+    width: 25%;
+    padding: 10px;
+}
+.apartats > div:first-child{
+    margin-right: 10px;
+}
+.contingut{
+    display: flex;
+    flex-direction: column;
+}
+.imatge{
+    display: flex;
+    justify-content: center;
+}
+.img_{
+    width: 300px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+}
+.titol{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.text{
+    margin-left: 20px;
+    text-align: justify;
+}
+.link{
+    margin-top: 25px;
+}
+.leer{
+    font-size: 19px;
+    line-height: 19px;
+    color: ;
+    font-weight: bold;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: #70CF84;
+    padding: 7px;
+    opacity: 0.8;
+}
+.leer:hover{
+    opacity: 1;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 65%;
+    min-width: 300px;
+    flex-direction: row;
+}
+.container > div{
+    width: 25%;
+}
+.card{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    min-width: 300px;
+    margin-top: 30px;
+    flex: 20%;
+    flex-direction: column;
+}
+.containerApartat{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    margin: 20px auto;
+}
+.partesquerra{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.titol_{
+    display: flex;
+    padding: 10px;
+}
+
+.pr{
+    padding: 10px;
+}
+.partdreta{
+    display: flex;
+    flex-direction: column;
+    flex: 15%;
+    min-width: 300px;
+}
+.tit{
+    display: flex;
+    justify-content: center;
+}
+.contingut{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.footer{
+    background-color: #228B22;
+    background-color: #228B22;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+.pfooter{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+}
+.itemCanviat{
+    background-color: black;
+    color: yellow;
+    flex: 24%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 14px;
+    text-align: center;
+    font-size: 45px;
+    margin: 1px 1px;
+    border: 1px solid white;
+}
+.desplegable{
+    display: flex;
+    flex-wrap: wrap;
+}
+.opcions{
+    display: flex;
+}
+#font-size{
+    display: flex;
+    justify-content: space-around;
+}
+.interlineat{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 29px;
+}
+.pare{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.opcions{
+    display: flex;
+    margin: 20px;
+}
+h4{
+    font-size: 22px;
+}
